@@ -59,3 +59,32 @@ body {
 .admin >* {
   margin-bottom: 10px;
 }
+
+li {
+  text-transform: capitalize;
+  width: fit-content;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+ol {
+  width: fit-content;
+}
+
+
+.twentyPlusItems {
+  width: fit-content;
+  columns: 3;
+
+}
+
+div.outputArea > * {
+  margin: auto;
+}
+
+
+
+

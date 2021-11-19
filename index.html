@@ -40,17 +40,21 @@
           <button type="button" onclick="submitButtonClicked()">Submit</button>
         </div>
 
+                <div class="inputField">
+          <button type="button" onclick="dummyDataClicked()">Dummy Data</button>
+        </div>
+
       </form>
     </div>
 
   <div class="admin">
     <h3>Admin Options</h3>
-    <button type="button">Process Next Patient</button>
-    <button type="button">List All Patients</button>
+    <button type="button" onclick="processNextPatientClicked()">Process Next Patient</button>
+    <button type="button" onclick="listAllPatientsClicked()">List All Patients</button>
   </div>
 
-  <div class="data">
-    <p id="data">data</p>
+  <div class="outputArea">
+    <p id="data"></p>
   </div>
 
 
